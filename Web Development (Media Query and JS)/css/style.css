@@ -1,0 +1,1954 @@
+/* 
+--------------------------------
+Home
+--------------------------------
+*/
+
+/* -------------css for home page------ */
+
+#home .welcome-text {
+  background-color: #3D3E3C;
+  text-align: center;
+  padding-top: 90px;
+  padding-bottom: 75px;
+}
+
+#home .welcome-text-inner {
+  width: 59%;
+  margin: auto;
+  /* padding-left: 40px; */
+}
+
+#home .welcome-text .cmn-ttl {
+  color: #a88f5c;
+  margin-bottom: 38px;
+}
+
+#home .welcome-text .cmn-p {
+  color: #D5D6CD;
+  padding: 0 30px;
+}
+
+#home .abt-voltage {
+  padding: 77px 0 100px 0;
+  background-color: #f6f3f3;
+}
+
+#home .abt-voltage .ft-left {
+  text-align: right;
+  padding-top: 13px;
+  padding-right: 30px;
+}
+
+#home .abt-voltage .ft-left .cmn-ttl {
+  margin-bottom: 38px;
+}
+
+#home .abt-voltage .ft-left .cmn-p {
+  margin-bottom: 70px;
+}
+
+#home .abt-voltage .ft-right {
+  text-align: center;
+  padding-left: 30px;
+}
+
+#home .abt-voltage .ft-right img {
+  width: 85%;
+  margin: auto;
+}
+
+#home .mission-vision {
+  padding: 70px 0 45px 0;
+}
+
+#home .mission-vision ul {
+  width: 100%;
+  margin-left: 20px;
+}
+
+#home .mission-vision li {
+  float: left;
+  width: 30%;
+  position: relative;
+  background-color: #fff;
+  margin-right: 4%;
+  margin-bottom: 50px;
+}
+
+#home .mission-vision li:nth-child(3n) {
+  margin-right: 0;
+}
+
+#home .mission-vision li::before {
+  content: '';
+  width: 162px;
+  height: 204px;
+  background-color: #A88F5C;
+  position: absolute;
+  left: -20px;
+  bottom: -20px;
+  z-index: -1;
+}
+
+#home .mission-vision li:nth-child(2)::before {
+  background-color: #3D3E3C;
+}
+
+#home .mission-vision li:nth-child(3)::before {
+  background-color: #CDE6FD;
+}
+
+#home .mission-vision li .cmn-ttl::before {
+  content: ' ';
+  width: 20px;
+  height: 10px;
+  background-color: #a88f5c;
+  position: absolute;
+  top: 20px;
+  margin-left: -45px;
+}
+
+#home .mission-vision li:nth-child(2) .cmn-ttl::before {
+  background-color: #3d3e3c;
+}
+
+#home .mission-vision li:nth-child(3) .cmn-ttl::before {
+  background-color: #CDE6FD;
+}
+
+#home .mission-vision .cmn-ttl {
+  position: relative;
+  margin-left: 45px;
+  margin-bottom: 40px;
+}
+
+#home .mission-vision .cmn-p {
+  padding: 0px 0px 20px 20px;
+}
+
+#home .range-product {
+  background-color: #CDE6FD;
+  padding: 91px 0 75px 0;
+  text-align: center;
+}
+
+#home .range-product .cmn-ttl {
+  color: #A67D29;
+  margin-bottom: 42px;
+}
+
+#home .range-product .cmn-p {
+  margin-bottom: 50px;
+}
+
+#home .range-product ul {
+  width: 57%;
+  margin: auto;
+}
+
+#home .range-product li {
+  float: left;
+  width: 30.8%;
+  margin-bottom: 10px;
+}
+
+#home .range-product li img {
+  width: 56.3%;
+}
+
+#home .range-product .ico-label {
+  font-family: 'Poppins-Regular';
+  font-size: 20px;
+  color: #3D3E3C;
+  padding-top: 15px;
+}
+
+#home .our-product {
+  padding: 90px 0 73px 0;
+  background-color: #3D3E3C;
+  text-align: center;
+  color: #ffffff;
+}
+
+#home .our-product .cmn-ttl {
+  color: #ffffff;
+}
+
+#home .our-product #tabs-nav {
+  width: 50%;
+  margin: auto;
+  padding: 11px 25px;
+  display: inline-block;
+}
+
+#home .our-product #tabs-nav li {
+  float: left;
+  width: 50%;
+}
+
+#home .our-product #tabs-nav li.active a {
+  color: #A67D29;
+}
+
+#home #tabs-nav a {
+  font-family: 'Poppins-Regular';
+  font-size: 20px;
+  color: #7F807B;
+  text-align: center;
+  padding: 25px 10px;
+  text-decoration: none;
+
+}
+
+#home .our-product #tabs-content {
+  padding-top: 16px;
+  text-align: left;
+}
+
+#home .our-product .tab-content li {
+  float: left;
+  width: 22.7%;
+  margin-bottom: 10px;
+  margin-right: 3%;
+}
+
+#home .our-product .tab-content li:nth-child(4n) {
+  margin-right: 0;
+}
+
+#home .our-product .tab-content li img {
+  width: 100%;
+}
+
+#home .our-product .tab-content li .label {
+  font-family: 'Poppins-Regular';
+  font-size: 20px;
+  padding-top: 20px;
+  text-align: center;
+}
+
+#home .manufacturing {
+  padding: 90px 0 90px 0;
+  background-color: #CDE6FD;
+  text-align: center;
+}
+
+#home .manufacturing .cmn-ttl {
+  color: #A88F5C;
+  margin-bottom: 40px;
+}
+
+#home .manufacturing ul {
+  text-align: left;
+  margin-bottom: 35px;
+}
+
+#home .manufacturing li {
+  float: left;
+  width: 14.3%;
+  margin-right: 2.8%;
+  margin-bottom: 10px;
+}
+
+#home .manufacturing li:nth-child(6n) {
+  margin-right: 0;
+}
+
+#home .manufacturing li img {
+  width: 100%;
+  vertical-align: bottom;
+}
+
+#home .manufacturing li:nth-child(6) {
+  margin-right: 0;
+}
+
+#home .manufacturing .label {
+  font-family: 'Poppins-Regular';
+  background-color: #3D3E3C;
+  color: #ffffff;
+  padding: 8px 0;
+  text-align: center;
+  width: 100%;
+}
+
+/* 
+------------------------------ 
+About Us 
+------------------------------ 
+*/
+
+/* about-us section */
+
+.sec-about-us {
+  padding-bottom: 79px;
+}
+
+.about-us-block {
+  padding-top: 90px;
+}
+
+.about-us-left {
+  width: 65.8%;
+}
+
+.about-us-left .cmn-header {
+  padding-bottom: 31px;
+}
+
+.about-us-left p {
+  padding-top: 5px;
+  padding-bottom: 15px;
+  font-family: "Poppins-Regular";
+  font-size: 16px;
+  line-height: 1.9;
+}
+
+.about-us-left .f-para:before {
+  content: "";
+  border-left: 1px solid #A88F5C;
+  position: absolute;
+  border-width: 6px;
+  height: 80%;
+  left: 0;
+}
+
+.about-us-left .f-para {
+  padding-bottom: 19px;
+  padding-left: 16px;
+  position: relative;
+}
+
+.about-us-left .t-para {
+  text-align: center;
+}
+
+.about-us-left .t-para span {
+  font-family: "Oswald-regular";
+  font-size: 20px;
+  color: #A67D29;
+}
+
+.about-us-right {
+  background-color: #A67D29;
+  position: relative;
+  width: 29%;
+  height: 450px;
+  margin-top: 19px;
+}
+
+.about-us-right::after {
+  content: '';
+  background-image: url("../img/about/img_about_factory.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  width: 100%;
+  top: -29px;
+  right: 28px;
+  ;
+  height: 450px;
+}
+
+/* about-services section */
+
+.sec-about-services {
+  background-color: #3D3E3C;
+  padding-bottom: 63px;
+}
+
+.sec-about-services p {
+  font-family: "Poppins-Regular";
+  font-size: 16px;
+  line-height: 1.9;
+}
+
+.about-services h2 {
+  text-align: center;
+  color: #FFFFFF;
+  padding-top: 58px;
+}
+
+.about-services .about-choose-us {
+  color: #D5D6CD;
+  width: 100%;
+  padding-top: 36px;
+  padding-bottom: 58px;
+  line-height: 1.9;
+  text-align: center;
+}
+
+.about-services-list ul {
+  list-style-type: none;
+}
+
+.about-services-list ul li {
+  margin-right: 53px;
+  margin-bottom: 10px;
+  padding-left: 6px;
+  float: left;
+  width: 29%;
+  color: #FFFFFF;
+}
+
+.about-services-list ul li:first-child {
+  padding-left: 0;
+}
+
+.about-services-list ul li:nth-child(3n) {
+  margin-right: 0;
+  padding-left: 12px;
+}
+
+.about-services-list ul li h2 {
+  padding-bottom: 24px;
+  padding-left: 26px;
+  position: relative;
+  color: #FFFFFF;
+  font-size: 20px;
+}
+
+.about-services-list ul li h2::before {
+  font-family: "fa-solid";
+  content: "\f111";
+  font-size: 10px;
+  top: 8px;
+  left: 0;
+  position: absolute;
+  color: #A67D29;
+}
+
+/* about-purpose section */
+
+.sec-about-purpose {
+  background-image: url("../img/about/img_cookie.png");
+  background-repeat: no-repeat;
+  background-size: 50% 100%;
+}
+
+.about-purpose-left {
+  display: none;
+}
+
+.about-purpose-right {
+
+  background: linear-gradient(135deg, rgba(239, 226, 178, 1) 0%, rgba(222, 203, 142, 1) 50%, rgba(186, 150, 111, 1) 80%);
+  padding: 54px 0 59px 30px;
+  width: 50%;
+}
+
+.about-purpose-right p {
+  font-family: "Poppins-Regular";
+  font-size: 16px;
+  line-height: 1.9;
+}
+
+.about-purpose-right .about-p-text {
+  padding: 35px 91px 15px 0;
+}
+
+/* accordion block */
+
+.accordion-block {
+  position: relative;
+  max-width: 100%;
+  height: auto;
+  margin-top: 10px;
+  margin-right: 140px;
+}
+
+.about-purpose-list {
+  position: relative;
+  width: 100%;
+  margin-bottom: 20px;
+  background-color: #FFFFFF;
+}
+
+.about-purpose-list a {
+  font-family: "Oswald-regular";
+  display: block;
+  padding: 19px 20px;
+  text-decoration: none;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+  color: #333333;
+  font-size: 20px;
+  transition: all 0.2s linear;
+}
+
+.about-purpose-list a i {
+  float: right;
+  color: #A67D29;
+  margin-top: 2px;
+}
+
+.about-purpose-list a.active {
+  background-color: #FFFFFF;
+  color: #333333;
+}
+
+.about-content {
+  display: none;
+}
+
+.about-content p {
+  padding: 14px 20px;
+  margin: 0;
+  color: #333333;
+}
+
+
+
+/* 
+--------------------------------
+Manufacturing
+--------------------------------
+*/
+
+
+/* sec-manufacturing-blk */
+
+.sec-manufacturing-blk .pc {
+  display: block;
+}
+
+.sec-manufacturing-blk .manufac-lists li a,
+.sec-manufacturing-blk .manufac-right-blk .manufac-right-tab p {
+  line-height: 2;
+  font-family: 'Poppins-Regular';
+  font-size: 16px;
+}
+
+.sec-manufacturing-blk {
+  padding: 48px 0px 82px 0px;
+  color: #333333;
+}
+
+.sec-manufacturing-blk .manufacturing-pra h2,
+.sec-manufacturing-blk .manufacturing-pra .manu-txt {
+  text-align: center;
+}
+
+.sec-manufacturing-blk .manufacturing-pra {
+  margin-bottom: 54px;
+}
+
+.sec-manufacturing-blk .manufacturing-pra .manu-txt {
+  margin-top: 30px;
+  font-size: 14px;
+  line-height: 2;
+  font-family: 'Poppins-Regular';
+}
+
+.sec-manufacturing-blk .manufac-left-blk {
+  width: 23%;
+}
+
+.sec-manufacturing-blk .manufac-lists {
+  list-style-type: none;
+  width: 100%;
+  border-right: 1px solid #333;
+}
+
+.sec-manufacturing-blk .manufac-lists li {
+  padding: 20px 20px 11px 20px;
+  cursor: pointer;
+}
+
+.sec-manufacturing-blk .manufac-lists li a {
+  text-decoration: none;
+  color: #333333;
+}
+
+.sec-manufacturing-blk .manufac-lists .active {
+  border-right: 6px solid #A67D29;
+  background-color: #F6F3F3;
+}
+
+.sec-manufacturing-blk .manufac-right-blk {
+  width: 77%;
+  padding: 33px 24px 33px 29px;
+}
+
+.sec-manufacturing-blk .manufac-right-blk .manufac-right-tab.active {
+  display: block;
+}
+
+.sec-manufacturing-blk .manufac-right-blk .manufac-right-tab {
+  display: none;
+}
+
+.sec-manufacturing-blk .manufac-right-blk .manufac-right-tab h3 {
+  font-size: 30px;
+  font-family: 'Oswald-regular';
+}
+
+.sec-manufacturing-blk .manufac-right-blk .manufac-right-tab p {
+  margin: 18px 0px;
+}
+
+.sec-manufacturing-blk .manufac-right-blk .slider {
+  width: 95%;
+  margin: 0 auto;
+}
+
+.sec-manufacturing-blk .manufac-right-blk .slick-slide {
+  margin: 0px 24px;
+}
+
+.slick-slide {
+  transition: all ease-in-out .1s;
+}
+
+.slick-prev:before,
+.slick-next:before {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  color: #7F807B;
+  font-size: 24px;
+}
+
+.slick-prev:before {
+  content: '\f104';
+}
+
+.slick-next:before {
+  content: '\f105';
+}
+
+
+/* 
+--------------------------------
+contact
+--------------------------------
+*/
+
+/* --------------------------------------sec-content-one---------------------------------- */
+.one-line {
+  display: none;
+}
+
+.contact .sec-content-one {
+  background: url("../img/contact/img_contact01.png") no-repeat center/cover;
+  padding-bottom: 81px;
+  padding-top: 47px;
+}
+
+.contact .sec-content-one .fl-left {
+  width: 49%;
+  float: left;
+}
+
+.contact .sec-content-one .fl-left .form-style {
+  padding-top: 37px;
+}
+
+.contact .sec-content-one .fl-left .input-style {
+  width: 100%;
+  border: none;
+  font-size: 16px;
+  font-family: "Poppins-Regular";
+  box-shadow: 0px 0px 6px rgba(0, 0, 0, 16%);
+  margin-bottom: 29px;
+  padding: 7px 0 7px 13px;
+  outline: none;
+  color: #AAAAAA;
+}
+
+.contact .sec-content-one .fl-left .textarea-style {
+  width: 100%;
+  border: none;
+  font-size: 16px;
+  font-family: "Poppins-Regular";
+  box-shadow: 0px 0px 6px rgba(0, 0, 0, 16%);
+  margin-bottom: 29px;
+  padding: 5px 0 130px 13px;
+  outline: none;
+  color: #AAAAAA;
+}
+
+.contact .sec-content-one .fl-right {
+  width: 48.7%;
+  float: right;
+}
+
+
+.contact .sec-content-one .fl-right .contact-info {
+  background: #3D3E3C;
+  border: 10px solid #FFFFFF;
+  padding: 25px 70px 0px 19px;
+  margin-top: 35px;
+}
+
+.contact .sec-content-one .fl-right .contact-blk {
+  padding-bottom: 57px;
+}
+
+.contact .sec-content-one .fl-right .contact-blk:last-child {
+  padding-bottom: 35px;
+}
+
+.contact .sec-content-one .fl-right .contact-ttl {
+  font-size: 25px;
+  font-family: "Oswald-regular";
+  color: #A67D29;
+  padding-bottom: 37px;
+}
+
+.contact .sec-content-one .fl-right .contact-blk li {
+  list-style: none;
+}
+
+.contact .sec-content-one .fl-right .contact-blk li a {
+  text-decoration: none;
+  color: #D5D6CD;
+  font-size: 16px;
+  font-family: "Poppins-Regular";
+  padding-left: 24px;
+  display: inline-block;
+}
+
+.contact .sec-content-one .fl-right .contact-blk .contact-address {
+  position: relative;
+  padding-bottom: 24px;
+  line-height: 1.8;
+}
+
+.contact .sec-content-one .fl-right .contact-blk .contact-phone {
+  position: relative;
+  padding-bottom: 34px;
+}
+
+.contact .sec-content-one .fl-right .contact-blk .contact-phone a:last-child {
+  padding-left: 0px;
+}
+
+.contact .sec-content-one .fl-right .contact-blk .contact-mail {
+  position: relative;
+}
+
+.contact-address::before {
+  color: #D5D6CD;
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  content: "\f3c5";
+  font-size: 15px;
+  position: absolute;
+}
+
+.contact-phone::before {
+  color: #D5D6CD;
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  content: "\f2a0";
+  font-size: 15px;
+  position: absolute;
+}
+
+
+.contact-mail::before {
+  color: #D5D6CD;
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  content: "\f0e0";
+  font-size: 15px;
+  position: absolute;
+}
+
+/* --------------------------------------sec-content-two---------------------------------- */
+.contact .sec-content-two {
+  padding: 65px 0 74px 0;
+}
+
+.contact .sec-content-two iframe {
+  width: 100%;
+  height: 425px;
+}
+
+
+
+@media screen and (min-width:768px) and (max-width:1024px) {
+
+  /* 
+--------------------------------
+Home
+--------------------------------
+*/
+  #home {
+    max-width: 100vw;
+  }
+
+  #home .cmn-ttl {
+    font-size: 4.557vw;
+  }
+
+  #home .cmn-p {
+    font-size: 2.083vw;
+  }
+
+  #home .mission-vision .cmn-p {
+    padding: 0vw 0vw 2.604vw 2.604vw;
+  }
+
+  #home .welcome-text {
+    padding-top: 10.026vw;
+    padding-bottom: 8.26vw;
+  }
+
+  #home .welcome-text-inner {
+    padding: 0;
+    width: 78.125vw;
+  }
+
+  #home .welcome-text .cmn-ttl {
+    margin-bottom: 4.818vw;
+    margin-left: -3.125vw;
+  }
+
+  #home .welcome-text .cmn-p {
+    padding: 0;
+  }
+
+  #home .abt-voltage {
+    padding: 8.724vw 0 9.766vw 0;
+  }
+
+  #home .abt-voltage .l-inner {
+    max-width: 100%;
+  }
+
+  #home .abt-voltage .ft-left {
+    padding-right: 2.604vw;
+    padding-left: 3.255vw;
+  }
+
+  #home .abt-voltage .ft-left .cmn-p {
+    margin-bottom: 7.99vw;
+  }
+
+  #home .abt-voltage .ft-right {
+    padding-left: 1.302vw;
+    padding-top: 8.464vw;
+  }
+
+  #home .abt-voltage .ft-right img {
+    width: 44.271vw;
+    height: 27.474vw !important;
+    margin: auto;
+  }
+
+  #home .mission-vision {
+    padding: 10.286vw 0 9.115vw 0;
+  }
+
+  #home .mission-vision li .cmn-ttl::before {
+    content: ' ';
+    width: 2.595vw;
+    height: 1.302vw;
+    top: 2.302vw;
+    margin-left: -4.036vw;
+  }
+
+  #home .mission-vision .cmn-ttl {
+    position: relative;
+    z-index: 20;
+    margin-left: 4.036vw;
+    margin-bottom: 5.208vw;
+  }
+
+  #home .mission-vision li {
+    float: left;
+    width: 29%;
+    padding-bottom: 0;
+    margin-bottom: 0;
+  }
+
+  #home .mission-vision li::before {
+    content: '';
+    width: 18.880vw;
+    height: 38.671875vw;
+    left: -2.604vw;
+    bottom: -2.604vw;
+  }
+
+  #home .range-product {
+    padding: 10.417vw 0 7.8125vw 0;
+  }
+
+  #home .range-product .cmn-ttl {
+    margin-bottom: 4.818vw;
+  }
+
+  #home .range-product .cmn-p {
+    margin-bottom: 3.90625vw;
+  }
+
+  #home .range-product ul {
+    padding-left: 5.208vw;
+  }
+
+  #home .range-product li img {
+    width: 60.3%;
+  }
+
+  #home .range-product li {
+    width: 30%;
+  }
+
+  #home .range-product .ico-label {
+    font-size: 1.823vw;
+    padding-top: 0.911vw;
+  }
+
+  #home .our-product {
+    padding: 10.417vw 0 6.12vw 0;
+  }
+
+  #home .our-product #tabs-nav {
+    width: 70%;
+    padding: 0.651vw 5.208vw;
+  }
+
+  #home #tabs-nav a {
+    font-size: 2.083vw;
+  }
+
+  #home .our-product #tabs-content {
+    padding-top: 2.823vw;
+  }
+
+  #home .our-product .tab-content li {
+    margin-right: 2.804vw;
+  }
+
+  #home .our-product .tab-content li .label {
+    font-size: 2.083vw;
+    padding-top: 0.911vw;
+  }
+
+  #home .manufacturing {
+    padding: 10.417vw 0 10.017vw 0;
+  }
+
+  #home .manufacturing ul {
+    text-align: left;
+    margin-bottom: 2.097vw;
+    padding-left: 11.068vw;
+  }
+
+  #home .manufacturing li {
+    width: 25.5%;
+    margin-right: 4.7%;
+    margin-bottom: 3.557vw;
+  }
+
+  /* 
+--------------------------------
+About us
+--------------------------------
+*/
+
+
+  .about-us-left .sub-txt {
+    font-size: 2.343vw;
+  }
+
+  .sec-about-us {
+    padding-bottom: 7.031vw;
+  }
+
+  .about-us-left {
+    width: 59%;
+  }
+
+  .about-us-block {
+    padding-top: 7.031vw;
+    line-height: 0.7;
+  }
+
+  .about-us-left .cmn-header {
+    padding-bottom: 4.645vw;
+  }
+
+  .about-us-left .f-para {
+    padding-left: 1.432vw;
+  }
+
+  .about-us-left .f-para:before {
+    content: "";
+    border-left: 1px solid #A88F5C;
+    position: absolute;
+    border-width: 6px;
+    height: 80%;
+    left: 0;
+  }
+
+  .about-us-left .s-para {
+    padding-bottom: 2.213vw;
+  }
+
+  .about-us-left .t-para {
+    font-size: 1.822vw;
+    line-height: 1.5;
+    padding-right: 0.130vw;
+  }
+
+  .about-us-left .t-para span {
+    font-size: 2.083vw;
+    padding-left: 10.286vw;
+  }
+
+  .about-us-right {
+    height: 44.401vw;
+    margin-top: 11.718vw;
+    width: 34%;
+  }
+
+  .about-us-right::after {
+    height: 44.140vw;
+    top: -3.125vw;
+    right: 2.734vw;
+  }
+
+
+
+  .about-services .sub-txt {
+    font-size: 2.083vw;
+  }
+
+  .about-services h2 {
+    padding-right: 0.260vw;
+    padding-top: 6.510vw;
+    line-height: 1.1;
+  }
+
+  .about-services .about-choose-us {
+    padding-bottom: 6.25vw;
+  }
+
+  .about-services-list ul li {
+    float: left;
+    padding-left: 0.130vw;
+    width: 31%;
+    margin-right: 2.994vw;
+  }
+
+  .about-services-list ul li:nth-child(3n) {
+    margin-right: 0;
+    padding-left: 0;
+  }
+
+  .about-services-list ul li h2::before {
+    top: 1.041vw;
+    font-size: 1.432vw;
+  }
+
+  .about-services-list ul li h2 {
+    padding-left: 2.734vw;
+    padding-bottom: 3.385vw;
+  }
+
+  .sec-about-services {
+    padding-bottom: 6.338vw;
+  }
+
+  .about-purpose-left {
+    width: 50%;
+    height: 89.901vw;
+  }
+
+  .about-purpose-left {
+    display: none;
+  }
+
+  .about-purpose-right {
+    padding: 6.64vw 0 6.4vw 5.208vw;
+  }
+
+  .about-purpose-right .about-p-text {
+    padding: 4.9vw 5.078vw 1.953vw 0;
+  }
+
+  .about-purpose-list a {
+    padding: 1.58vw 1.822vw;
+    font-size: 2.343vw;
+  }
+
+  .about-purpose-list a i {
+    font-size: 1.432vw;
+    padding-right: 0.130vw;
+  }
+
+  .accordion-block {
+    margin-top: 1.302vw;
+    margin-right: 0;
+  }
+
+  .about-purpose-list {
+    width: 93%;
+  }
+
+  .about-content p {
+    padding: 1.2vw 1.953vw;
+  }
+
+  /* 
+--------------------------------
+Manufacturing
+--------------------------------
+*/
+  .sec-manufacturing-blk .pc {
+    display: none;
+  }
+
+  .sec-manufacturing-blk {
+    padding: 4.96vw 0vw 6.292vw 0vw;
+  }
+
+  .sec-manufacturing-blk .manufacturing-pra {
+    margin-bottom: 3.604vw;
+  }
+
+  .sec-manufacturing-blk .manufacturing-pra .manu-txt {
+    margin-top: 3.906vw;
+  }
+
+  .sec-manufacturing-blk .manufacturing-pra .manu-txt,
+  .sec-manufacturing-blk .manufac-lists li a,
+  .sec-manufacturing-blk .manufac-right-blk .manufac-right-tab p {
+    font-size: 2.083vw;
+  }
+
+  .sec-manufacturing-blk .manufac-left-blk {
+    width: 22.135vw;
+  }
+
+  .sec-manufacturing-blk .manufac-lists {
+    border-right: 0.13vw solid #333;
+  }
+
+  .sec-manufacturing-blk .manufac-lists li {
+    padding: 0.65vw 2.604vw;
+    cursor: pointer;
+  }
+
+  .sec-manufacturing-blk .manufac-lists .active {
+    border-right: 0.65vw solid #A67D29;
+  }
+
+  .sec-manufacturing-blk .manufac-right-blk {
+    width: 71.615vw;
+    padding: 2.865vw 1.953vw 2.865vw 2.604vw;
+  }
+
+  .sec-manufacturing-blk .manufac-right-blk .manufac-right-tab h3 {
+    font-size: 3.255vw;
+  }
+
+  .sec-manufacturing-blk .manufac-right-blk .manufac-right-tab p {
+    margin: 1.43vw 0vw 2.604vw 0vw;
+  }
+
+  .sec-manufacturing-blk .manufac-left-blk .slider {
+    width: 61.198vw;
+  }
+
+  .slick-slide {
+    margin: 0 1.56vw !important;
+  }
+
+  .slick-prev:before,
+  .slick-next:before {
+    font-size: 1.823vw;
+  }
+
+  /* 
+--------------------------------
+contact
+--------------------------------
+*/
+
+  /* --------------------------------------sec-content-one---------------------------------- */
+  .one-line {
+    display: block;
+  }
+
+  .contact .sec-content-one {
+    background: url("../img/contact/img_contact01.png") no-repeat center/cover;
+    padding-bottom: 4.557291666666666vw;
+    padding-top: 7.421875vw;
+  }
+
+  .contact .sec-content-one .fl-left {
+    width: 44.27083333333333vw;
+    float: left;
+  }
+
+  .contact .sec-content-one .fl-left .form-style {
+    padding-top: 5.208333333333334vw;
+  }
+
+  .contact .sec-content-one .fl-left .input-style {
+    width: 44.27083333333333vw;
+    border: none;
+    font-size: 2.083333333333333vw;
+    font-family: "Poppins-Regular";
+    box-shadow: 0px 0px 6px rgba(0, 0, 0, 16%);
+    margin-bottom: 3.7760416666666665vw;
+    padding: 0.6510416666666667vw 0vw 0.5208333333333333vw 1.4322916666666665vw;
+    outline: none;
+    color: #AAAAAA;
+  }
+
+  .contact .sec-content-one .fl-left .textarea-style {
+    border: none;
+    font-size: 2.083333333333333vw;
+    font-family: "Poppins-Regular";
+    box-shadow: 0px 0px 6px rgba(0, 0, 0, 16%);
+    margin-bottom: 3.7760416666666665vw;
+    padding: 0.6510416666666667vw 0vw 11.197916666666668vw 1.6927083333333333vw;
+    outline: none;
+    color: #AAAAAA;
+  }
+
+  .contact .sec-content-one .fl-right {
+    width: 44.53125vw;
+    float: right;
+  }
+
+
+  .contact .sec-content-one .fl-right .contact-info {
+    width: 44.53125vw;
+    background: #3D3E3C;
+    border: 10px solid #FFFFFF;
+    padding: 3.2552083333333335vw 2.734375vw 0vw 2.473958333333333vw;
+    margin-top: 4.557291666666666vw;
+  }
+
+  .contact .sec-content-one .fl-right .contact-blk {
+    padding-bottom: 4.296875vw;
+  }
+
+  .contact .sec-content-one .fl-right .contact-blk:last-child {
+    padding-bottom: 4.557291666666666vw;
+  }
+
+  .contact .sec-content-one .fl-right .contact-ttl {
+    font-size: 2.604166666666667vw;
+    font-family: "Oswald-regular";
+    color: #A67D29;
+    padding-bottom: 4.427083333333334vw;
+  }
+
+  .contact .sec-content-one .fl-right .contact-blk li {
+    list-style: none;
+  }
+
+  .contact .sec-content-one .fl-right .contact-blk li a {
+    text-decoration: none;
+    color: #D5D6CD;
+    font-size: 2.083333333333333vw;
+    font-family: "Poppins-Regular";
+    padding-left: 3.125vw;
+    display: inline-block;
+  }
+
+  .contact .sec-content-one .fl-right .contact-blk .contact-address {
+    position: relative;
+    padding-bottom: 2.864583333333333vw;
+    line-height: 1.8;
+  }
+
+  .contact .sec-content-one .fl-right .contact-blk .contact-phone {
+    position: relative;
+    padding-bottom: 2.213541666666667vw;
+    line-height: 1.7;
+  }
+
+  .contact .sec-content-one .fl-right .contact-blk .contact-phone a:last-child {
+    padding-left: 3.125vw;
+  }
+
+  .contact .sec-content-one .fl-right .contact-blk .contact-mail {
+    position: relative;
+  }
+
+  .contact-address::before {
+    color: #D5D6CD;
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f3c5";
+    font-size: 1.953125vw;
+    position: absolute;
+  }
+
+  .contact-phone::before {
+    color: #D5D6CD;
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f2a0";
+    font-size: 1.953125vw;
+    position: absolute;
+  }
+
+
+  .contact-mail::before {
+    color: #D5D6CD;
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f0e0";
+    font-size: 1.953125vw;
+    position: absolute;
+  }
+
+  /* --------------------------------------sec-content-two---------------------------------- */
+  .contact .sec-content-two {
+    padding: 8.463541666666668vw 0vw 3.0458333333333334vw 0vw;
+  }
+
+  .contact .sec-content-two iframe {
+    width: 100%;
+    height: 30.729166666666668vw;
+  }
+}
+
+
+@media screen and (max-width: 767.9px) {
+
+  /* 
+--------------
+home page
+--------------
+*/
+
+  #home .sp {
+    display: block;
+  }
+
+  #home .cmn-ttl {
+    font-size: 3.90625vw;
+  }
+
+  #home .cmn-p {
+    font-size: 2.1875vw;
+    line-height: 1.75;
+  }
+
+  #home .cmn-btn {
+    font-size: 2.1875vw;
+    padding: 1.09375vw 2.8125vw;
+  }
+
+  #home .welcome-text-inner {
+    width: 93.75vw;
+    margin: auto;
+  }
+
+  #home .welcome-text .cmn-p {
+    padding: 0;
+  }
+
+  #home .welcome-text {
+    padding-top: 7.5vw;
+    padding-bottom: 8.59375vw;
+  }
+
+  #home .welcome-text .cmn-ttl {
+    font-size: 3.90625vw;
+    margin-bottom: 2.8125vw;
+  }
+
+  #home .cmn-p {
+    font-size: 2.1875vw;
+    line-height: 1.75;
+  }
+
+  #home .abt-voltage {
+    padding-top: 5.46875vw;
+    padding-bottom: 7.03125vw;
+  }
+
+  #home .abt-voltage .ft-left {
+    width: 100%;
+    text-align: center;
+    padding-right: 0;
+    margin-bottom: 5.46875vw;
+  }
+
+  #home .abt-voltage .ft-left .cmn-ttl {
+    margin-bottom: 4.0625vw;
+  }
+
+  #home .abt-voltage .ft-left .cmn-p {
+    margin-bottom: 4.21875vw;
+  }
+
+  #home .abt-voltage .ft-right {
+    width: 100%;
+    padding-left: 0;
+  }
+
+  #home .abt-voltage .ft-right img {
+    width: 43.125vw;
+    margin: auto;
+  }
+
+  #home .mission-vision li {
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 8.28125vw;
+  }
+
+  #home .mission-vision li::before {
+    width: 26.09375vw;
+    height: 14.21875vw;
+    left: -2.34375vw;
+    bottom: -2.34375vw;
+  }
+
+  #home .mission-vision {
+    padding: 9.90625vw 0 2.34375vw 0;
+  }
+
+  #home .mission-vision ul {
+    margin-left: 2.34375vw;
+  }
+
+  #home .mission-vision .cmn-ttl {
+    margin-left: 3.90625vw;
+    margin-bottom: 3.125vw;
+  }
+
+  #home .mission-vision li .cmn-ttl::before {
+    width: 2.34375vw;
+    height: 0.78125vw;
+    top: 1.875vw;
+    margin-left: -3.90625vw;
+  }
+
+  #home .mission-vision .cmn-p {
+    padding: 0 0 1.5625vw 2.34375vw;
+  }
+
+  #home .range-product {
+    padding: 8.90625vw 0 6.5625vw 0;
+  }
+
+  #home .range-product .cmn-ttl {
+    margin-bottom: 4.21875vw;
+  }
+
+  #home .range-product .cmn-p {
+    margin-bottom: 4.375vw;
+  }
+
+  #home .range-product ul {
+    width: 39.844vw;
+  }
+
+  #home .range-product li img {
+    width: 8.323vw;
+  }
+
+  #home .range-product li {
+    width: 31%;
+    margin-right: 1.25vw;
+  }
+
+  #home .range-product li:nth-child(3n) {
+    margin-right: 0;
+  }
+
+  #home .range-product .ico-label {
+    font-size: 2.1875vw;
+    padding-top: 0.46875vw;
+  }
+
+  #home .our-product {
+    padding: 9.59375vw 0 5.15625vw 0;
+  }
+
+  #home .our-product #tabs-nav {
+    width: 64.0625vw;
+    padding: 0;
+  }
+
+  #home .our-product .cmn-ttl {
+    margin-bottom: 4.6875vw;
+  }
+
+  #home .our-product #tabs-nav li {
+    margin-right: -3.594vw;
+    width: 50%;
+  }
+
+  #home .our-product #tabs-nav li:nth-child(2) {
+    margin-right: 0;
+  }
+
+  #home #tabs-nav a {
+    font-size: 2.5vw;
+  }
+
+  #home .our-product #tabs-content {
+    padding-top: 2.8125vw;
+  }
+
+  #home .our-product .tab-content li {
+    width: 43.75vw;
+    margin-bottom: 3.437vw;
+    margin-right: 6.25vw;
+  }
+
+  #home .our-product .tab-content li:nth-child(2n) {
+    margin-right: 0;
+  }
+
+  #home .our-product .tab-content li .label {
+    font-size: 2.5vw;
+    padding-top: 3.34375vw;
+  }
+
+  #home .manufacturing {
+    padding: 8.75vw 0 3.125vw 0;
+  }
+
+  #home .manufacturing .cmn-ttl {
+    margin-bottom: 5.625vw;
+  }
+
+  #home .manufacturing .cmn-btn {
+    display: none;
+  }
+
+  #home .manufacturing li {
+    width: 43.75vw;
+    margin-right: 6.25vw;
+    margin-bottom: 5vw;
+  }
+
+  #home .manufacturing li:nth-child(2n) {
+    margin-right: 0;
+  }
+
+  #home .manufacturing .label {
+    font-size: 2.96875vw;
+    padding: 3.125vw 0;
+  }
+
+  #home .manufacturing ul {
+    margin-bottom: 0;
+  }
+
+  /* 
+--------------------------------
+About us
+--------------------------------
+*/
+  .sec-about-us {
+    padding-bottom: 7.812vw;
+  }
+
+  .about-us-block {
+    padding-top: 6.25vw;
+  }
+
+  .ft-left,
+  .ft-right {
+    float: none;
+  }
+
+  .about-us-left .cmn-header {
+    padding-bottom: 4.531vw;
+    line-height: 1.1;
+  }
+
+
+  .about-us-block p {
+    font-size: 2.187vw;
+    font-family: "Poppins-Regular";
+  }
+
+  .about-us-left p {
+    padding-top: 0.625vw;
+    line-height: 1.8;
+    padding-bottom: 1.302vw;
+  }
+
+  .about-us-left .t-para {
+    text-align: right;
+  }
+
+  .about-us-left .f-para {
+    padding-bottom: 2.812vw;
+    padding-left: 1.8vw;
+  }
+
+  .about-us-left .f-para:before {
+    top: 0.078vw;
+  }
+
+  .s-para {
+    line-height: 1.8;
+  }
+
+  .t-para {
+    float: right;
+    margin-bottom: 1.562vw;
+  }
+
+  .about-us-left {
+    width: 100%;
+  }
+
+  .about-us-right {
+    max-width: 100%;
+    width: 66%;
+    height: 33.906vw;
+    margin-left: 17.031vw;
+    margin-top: 5.8vw;
+  }
+
+  .about-us-left .t-para span {
+    font-size: 2.5vw;
+  }
+
+  .about-us-right::after {
+    content: '';
+    background-image: url("../img/about/img_sp_factory.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: -2.031vw;
+    left: -2.187vw;
+  }
+
+  .about-services h2 {
+    padding-top: 5.937vw;
+    line-height: 1.2;
+  }
+
+  .sec-about-purpose {
+    background: none;
+  }
+
+  .about-services-list ul li {
+    float: none;
+    width: 100%;
+    margin-bottom: 3.92vw;
+    padding-left: 0;
+  }
+
+
+  .about-purpose-left {
+    display: block;
+    background-image: url("../img/about/img_sp_cookie.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 46.875vw;
+  }
+
+  .about-purpose-left,
+  .about-purpose-right {
+    width: 100%;
+  }
+
+  .about-purpose-right {
+    padding: 7.625vw 0 0.625vw 3.125vw;
+  }
+
+  .cmn-header {
+    line-height: 1;
+  }
+
+  .sec-about-services p {
+    font-size: 2.187vw;
+    line-height: 1.8;
+  }
+
+  .about-services .about-choose-us {
+    padding-top: 3.75vw;
+    padding-bottom: 5.062vw;
+    line-height: 1.8;
+  }
+
+  .about-services-list ul li h2 {
+    font-size: 2.812vw;
+    padding-bottom: 1.406vw;
+    padding-left: 2.968vw;
+  }
+
+  .about-services-list ul li h2::before {
+    font-size: 1.406vw;
+  }
+
+  .about-services-list ul li:first-child h2 {
+    padding-bottom: 2.343vw;
+  }
+
+  .about-services-list ul li:nth-child(3n) {
+    padding-left: 0;
+  }
+
+  .sec-about-services {
+    padding-bottom: 3.218vw;
+  }
+
+  .about-purpose-right p {
+    font-size: 2.187vw;
+  }
+
+  .about-purpose-right .about-p-text {
+    padding: 4.281vw 0 1.25vw 0;
+    line-height: 1.8;
+  }
+
+  .about-purpose-list a {
+    font-size: 2.812vw;
+    padding: 1.718vw 2.187vw;
+  }
+
+  .accordion-block {
+    margin-right: 2.187vw;
+  }
+
+  .about-content p {
+    padding: 2.031vw 2.343vw;
+    line-height: 1.8;
+  }
+
+  /* 
+--------------------------------
+Manufacturing
+--------------------------------
+*/
+  /* sec-manufacturing-blk-sp */
+  .sec-manufacturing-blk .pc {
+    display: none;
+  }
+
+  .sec-manufacturing-blk {
+    padding: 7.188vw 0vw 5.3125vw 0vw;
+  }
+
+  .sec-manufacturing-blk .manufacturing-pra {
+    margin-bottom: 4.375vw;
+  }
+
+  .sec-manufacturing-blk .manufacturing-pra .manu-txt {
+    margin-top: 3.4vw;
+    line-height: 1.8;
+  }
+
+  .sec-manufacturing-blk .manufacturing-pra .manu-txt,
+  .sec-manufacturing-blk .manufac-lists li a,
+  .sec-manufacturing-blk .manufac-right-blk .manufac-right-tab p {
+    font-size: 2.1875vw;
+  }
+
+  .sec-manufacturing-blk .manufac-left-blk {
+    width: 100%;
+  }
+
+  .sec-manufacturing-blk .manufac-lists {
+    border-right: none;
+  }
+
+  .sec-manufacturing-blk .manufac-lists li {
+    padding: 0.625vw 0vw;
+    text-align: center;
+    width: 21.875vw;
+  }
+
+
+  .sec-manufacturing-blk .manufac-lists .active {
+    border-right: none;
+    border-bottom: 0.15625vw solid #A67D29;
+  }
+
+  .sec-manufacturing-blk .manufac-right-blk {
+    width: 100%;
+    padding: 4.6875vw 3.125vw 3.4vw 3.125vw;
+  }
+
+  .sec-manufacturing-blk .manufac-right-blk .manufac-right-tab h3 {
+    font-size: 2.5vw;
+  }
+
+  .sec-manufacturing-blk .manufac-right-blk .manufac-right-tab p {
+    margin: 2vw 0vw 1.5625vw 0vw;
+  }
+
+  .sec-manufacturing-blk .manufac-left-blk .slider {
+    width: 85.46875vw;
+    margin: 0 auto;
+  }
+
+  .sec-manufacturing-blk .manufac-right-blk .slick-slide {
+    margin: 0vw 1.5625vw;
+  }
+
+  .slick-prev:before,
+  .slick-next:before {
+    font-size: 2.03125vw;
+  }
+
+  /* 
+--------------------------------
+contact
+--------------------------------
+*/
+
+  /* --------------------------------------sec-content-one---------------------------------- */
+  .one-line {
+    display: block;
+  }
+
+  .ft-ph-break {
+    display: none;
+  }
+
+  .contact .sec-content-one {
+    background: url("../img/contact/img_contact01_sp.png") no-repeat center/cover;
+    padding-bottom: 7.812vw;
+    padding-top: 6.562vw;
+  }
+
+  .contact .sec-content-one .fl-left {
+    width: 93.75vw;
+    float: none;
+  }
+
+  .contact .sec-content-one .fl-left .form-style {
+    padding-top: 4.375vw;
+  }
+
+  .contact .sec-content-one .fl-left .input-style {
+    width: 100%;
+    border: none;
+    font-size: 2.1875vw;
+    font-family: "Poppins-Regular";
+    box-shadow: 0px 0px 6px rgba(0, 0, 0, 16%);
+    margin-bottom: 2.812vw;
+    padding: 1.093vw 0vw 1.093vw 2.031vw;
+    outline: none;
+    color: #AAAAAA;
+  }
+
+  .contact .sec-content-one .fl-left .textarea-style {
+    width: 100%;
+    border: none;
+    font-size: 2.187vw;
+    font-family: "Poppins-Regular";
+    box-shadow: 0px 0px 6px rgb(0 0 0 / 16%);
+    margin-bottom: 3.125vw;
+    padding: 1.25vw 0vw 13.906vw 1.875vw;
+    outline: none;
+    color: #AAAAAA;
+  }
+
+  .contact .sec-content-one .fl-right {
+    width: 93.75vw;
+    float: none;
+    padding-top: 6.093vw;
+  }
+
+
+  .contact .sec-content-one .fl-right .contact-info {
+    background: #3D3E3C;
+    border: 10px solid #FFFFFF;
+    padding: 3.906vw 2.96875vw 0vw 2.96875vw;
+    margin-top: 4.21875vw;
+  }
+
+  .contact .sec-content-one .fl-right .contact-blk {
+    padding-bottom: 4.21875vw;
+  }
+
+  .contact .sec-content-one .fl-right .contact-blk:last-child {
+    padding-bottom: 2.5vw;
+  }
+
+  .contact .sec-content-one .fl-right .contact-ttl {
+    font-size: 3.125vw;
+    font-family: "Oswald-regular";
+    color: #A67D29;
+    padding-bottom: 3.593vw;
+  }
+
+  .contact .sec-content-one .fl-right .contact-blk li {
+    list-style: none;
+  }
+
+  .contact .sec-content-one .fl-right .contact-blk li a {
+    text-decoration: none;
+    color: #D5D6CD;
+    font-size: 2.187vw;
+    font-family: "Poppins-Regular";
+    padding-left: 3.35vw;
+    display: inline-block;
+    line-height: 2;
+  }
+
+  .contact .sec-content-one .fl-right .contact-blk .contact-address {
+    position: relative;
+    padding-bottom: 1.3vw;
+    line-height: 1.8;
+  }
+
+  .contact .sec-content-one .fl-right .contact-blk .contact-phone {
+    position: relative;
+    padding-bottom: 1.718vw;
+  }
+
+  .contact .sec-content-one .fl-right .contact-blk .contact-phone a:last-child {
+    padding-left: 3.35vw;
+  }
+
+  .contact .sec-content-one .fl-right .contact-blk .contact-mail {
+    position: relative;
+  }
+
+  .contact-address::before {
+    color: #D5D6CD;
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f3c5";
+    font-size: 2.343vw;
+    position: absolute;
+  }
+
+  .contact-phone::before {
+    top: 0.625vw;
+    color: #D5D6CD;
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f2a0";
+    font-size: 2.343vw;
+    position: absolute;
+  }
+
+
+  .contact-mail::before {
+    top: 1.25vw;
+    color: #D5D6CD;
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f0e0";
+    font-size: 2.343vw;
+    position: absolute;
+  }
+
+  /* --------------------------------------sec-content-two---------------------------------- */
+  .contact .sec-content-two {
+    padding: 4.843vw 0vw 4.062vw 0vw;
+  }
+
+  .contact .sec-content-two iframe {
+    width: 100%;
+    height: 35.156vw;
+  }
+
+}

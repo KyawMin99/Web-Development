@@ -1,0 +1,961 @@
+* {
+  box-sizing: border-box;
+}
+
+.pc {
+  display: block;
+}
+
+.sp {
+  display: none;
+}
+
+
+.wrapper {
+  max-width: 1920px;
+  margin: 0 auto;
+}
+
+.clearfix:after {
+  display: block;
+  clear: both;
+  height: 0px;
+  visibility: hidden;
+  font-size: 0px;
+  content: "";
+}
+
+.l-inner {
+  max-width: 80.2%;
+  margin: 0 auto;
+}
+
+.ft-left {
+  float: left;
+}
+
+.ft-right {
+  float: right;
+}
+
+.cmn-ttl {
+  font-size: 45px;
+  font-family: "Oswald-regular";
+  color: #333333;
+}
+
+.cmn-btn {
+  font-size: 16px;
+  font-family: "Oswald-regular";
+  color: #3D3E3C;
+  padding: 5px 19px;
+  border: 1px solid #3D3E3C;
+  background-color: transparent
+}
+
+
+.cmn-btn:hover {
+  color: #FFFFFF;
+  background-color: #3D3E3C;
+}
+
+
+
+.cmn-header {
+  font-size: 45px;
+  font-family: "Oswald-regular";
+  color: #555555;
+  line-height: 1.2;
+}
+
+.cmn-header .sub-txt {
+  font-family: "Poppins-Regular";
+  font-size: 20px;
+  color: #A67D29;
+}
+
+@font-face {
+  font-family: "Oswald-regular";
+  src: url("../font/fontfile/Oswald-Regular.ttf");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "Poppins-Regular";
+  src: url("../font/fontfile/Poppins-Regular.ttf");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "fa-solid";
+  src: url("../font/fontawesome/webfonts/fa-solid-900.ttf");
+}
+
+/* ------------------------------General------------------------------ */
+
+
+
+/* ------------------------------Header------------------------------ */
+
+.sec-header {
+  background: url("../img/top/img_top01.png") no-repeat center/cover;
+  padding-bottom: 700px;
+}
+
+.nav-bar {
+  background-color: rgba(205, 230, 253, 64%);
+  border-bottom: 8px solid #3D3E3C;
+  position: fixed;
+  width: 100vw;
+  z-index: 999;
+}
+
+
+.nav-bar .logo-ico {
+  float: left;
+  padding: 18px 0;
+}
+
+.nav-bar .logo-ico img {
+  width: 100%;
+}
+
+.nav-bar .nav-list {
+  float: right;
+  padding: 38px 2px 33px 0;
+}
+
+.nav-bar .nav-list li:first-child {
+  margin-left: 0px;
+}
+
+.nav-bar .nav-list li {
+  display: inline;
+}
+
+.nav-bar .nav-list li a:hover {
+  background: #3D3E3C;
+  color: #FFFFFF;
+}
+
+.nav-bar .nav-list li a.active {
+  background: #3D3E3C;
+  color: #FFFFFF;
+}
+
+.nav-bar .nav-list li a {
+  text-decoration: none;
+  font-family: "Oswald-regular";
+  font-size: 18px;
+  color: #3D3E3C;
+  padding: 34px 17px 39px 20px;
+}
+
+.cmn-sec-header {
+  background: url("../img/common/img_common02.png") no-repeat center/cover;
+  padding-bottom: 90px;
+}
+
+.cmn-sec-header .ttl-header {
+  text-align: center;
+  padding-top: 200px;
+}
+
+.cmn-sec-header .ttl-header .small-ttl {
+  font-family: "Poppins-Regular";
+  font-size: 35px;
+  color: #D99C21;
+}
+
+.cmn-sec-header .ttl-header .large-ttl {
+  font-family: "Oswald-regular";
+  font-size: 55px;
+  color: #FFFFFF;
+  padding-top: 20px;
+}
+
+
+/*--------common css for home page-------- */
+#home .cmn-ttl {
+  margin-bottom: 35px;
+  font-weight: normal;
+  text-transform: capitalize;
+}
+
+#home .cmn-p {
+  font-family: 'poppins-regular';
+  font-size: 16px;
+  line-height: 1.9;
+  color: #333333;
+}
+
+#home .ft-left {
+  width: 50%;
+}
+
+#home .ft-right {
+  width: 50%;
+}
+
+#home .cmn-btn {
+  text-decoration: none;
+}
+
+#home li {
+  list-style: none;
+}
+
+#home .sp {
+  display: none;
+}
+
+
+/* --------------------------------------cmn-sec-footer---------------------------------- */
+
+.cmn-sec-footer {
+  background: url("../img/common/img_common03.png") no-repeat center/cover;
+  padding-top: 82px;
+}
+
+.cmn-sec-footer .footer-blk:last-child {
+  margin-right: 0px;
+}
+
+.cmn-sec-footer .footer-blk {
+  background: #FFFFFF;
+  width: 31.6%;
+  padding: 0px 28px 33px 22px;
+  margin-right: 2.5%;
+  float: left;
+}
+
+.cmn-sec-footer .footer-list li {
+  list-style: none;
+}
+
+.cmn-sec-footer .footer-list .footer-img {
+  padding-top: 38px;
+}
+
+.cmn-sec-footer .footer-list .footer-img a {
+  padding-left: 0;
+}
+
+.cmn-sec-footer .footer-list .footer-txt {
+  padding: 20px 0;
+  font-size: 16px;
+  font-family: "Poppins-Regular";
+  color: #4e4949;
+  line-height: 1.5;
+}
+
+.cmn-sec-footer .footer-list .social-ttl {
+  color: #A67D29;
+  font-size: 25px;
+  font-family: "Oswald-regular";
+  padding-bottom: 34px;
+}
+
+.cmn-sec-footer .footer-list .social-link:first-child {
+  padding-left: 0px;
+}
+
+.cmn-sec-footer .footer-list .social-link {
+  float: left;
+  padding-left: 13px;
+}
+
+.cmn-sec-footer .footer-list .footer-ttl {
+  font-size: 25px;
+  font-family: "Oswald-regular";
+  color: #A67D29;
+  padding-top: 30px;
+}
+
+.cmn-sec-footer .footer-list li a {
+  text-decoration: none;
+  color: #333333;
+  font-size: 16px;
+  font-family: "Poppins-Regular";
+  display: block;
+  padding-left: 23px;
+}
+
+.cmn-sec-footer .footer-list .footer-address {
+  padding: 30px 0 22px 0;
+  line-height: 1.9;
+  position: relative;
+}
+
+.cmn-sec-footer .footer-list .footer-phone {
+  padding-bottom: 23px;
+  line-height: 1.9;
+  position: relative;
+}
+
+.cmn-sec-footer .footer-list .footer-mail {
+  position: relative;
+  padding-bottom: 8px;
+}
+
+.footer-address::before {
+  margin-right: 9px;
+  color: #333333;
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  content: "\f3c5";
+  font-size: 15px;
+  position: absolute;
+}
+
+.footer-phone::before {
+  margin-right: 9px;
+  color: #333333;
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  content: "\f2a0";
+  font-size: 15px;
+  position: absolute;
+}
+
+
+.footer-mail::before {
+  margin-right: 9px;
+  color: #333333;
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  content: "\f0e0";
+  font-size: 15px;
+  position: absolute;
+}
+
+.cmn-sec-footer .footer-copyright {
+  border-top: 1px solid #FFFFFF;
+  margin-top: 80px;
+  text-align: center;
+  padding: 24px 0;
+  font-size: 16px;
+  font-family: "Poppins-Regular";
+  color: #FFFFFF;
+}
+
+.cmn-sec-footer .footer-copyright .scm {
+  color: #F5FF7F;
+}
+
+.cmn-sec-footer .footer-copyright p {
+  padding-left: 10px;
+}
+
+
+@media screen and (min-width:768px) and (max-width:1024px) {
+  .l-inner {
+    max-width: 93.75vw;
+    margin: 0 auto;
+  }
+
+  .cmn-ttl {
+    font-size: 4.557vw;
+    font-family: "Oswald-regular";
+    color: #333333;
+  }
+
+  .cmn-btn {
+    font-size: 2.083vw;
+    font-family: "Oswald-regular";
+    color: #3D3E3C;
+    padding: 0.78125vw 2.604vw;
+    border: 1px solid #3D3E3C;
+  }
+
+
+  .cmn-header {
+    font-size: 4.557vw;
+    font-family: "Oswald-regular";
+    color: #555555;
+    line-height: 1;
+  }
+
+  .cmn-header .sub-txt {
+    font-family: "Poppins-Regular";
+    font-size: 2.34375vw;
+    color: #A67D29;
+  }
+
+  /* ------------------------------General------------------------------ */
+
+  .sec-header {
+    background: url("../img/top/img_top01.png") no-repeat center/cover;
+    padding-bottom: 49.627vw;
+  }
+
+  .nav-bar {
+    background-color: rgba(205, 230, 253, 64%);
+    border-bottom: 4px solid #3D3E3C;
+    position: fixed;
+    width: 100vw;
+    z-index: 999;
+  }
+
+
+  .nav-bar .logo-ico {
+    float: left;
+    padding: 1.171vw 0vw;
+  }
+
+  .nav-bar .logo-ico img {
+    width: 14.713vw;
+  }
+
+  .nav-bar .nav-list {
+    float: right;
+    padding: 2.473vw 0.260vw 2.213vw 0vw;
+  }
+
+  .nav-bar .nav-list li:first-child {
+    margin-left: 0vw;
+  }
+
+  .nav-bar .nav-list li {
+    display: inline;
+  }
+
+  .nav-bar .nav-list li a:hover {
+    background: #3D3E3C;
+    color: #FFFFFF;
+  }
+
+  .nav-bar .nav-list li a.active {
+    background: #3D3E3C;
+    color: #FFFFFF;
+  }
+
+  .nav-bar .nav-list li a {
+    text-decoration: none;
+    font-family: "Oswald-regular";
+    font-size: 2.083vw;
+    color: #3D3E3C;
+    padding: 1.953vw 2.343vw;
+  }
+
+  .cmn-sec-header {
+    background: url("../img/common/img_common02.png") no-repeat center/cover;
+    padding-bottom: 6.510vw;
+  }
+
+  .cmn-sec-header .ttl-header {
+    text-align: center;
+    padding-top: 14.37vw;
+  }
+
+  .cmn-sec-header .ttl-header .small-ttl {
+    font-family: "Poppins-Regular";
+    font-size: 2.473vw;
+    color: #D99C21;
+  }
+
+  .cmn-sec-header .ttl-header .large-ttl {
+    font-family: "Oswald-regular";
+    font-size: 3.776vw;
+    color: #FFFFFF;
+    padding: 1.432vw 1.432vw 0vw 0vw;
+  }
+
+  /* ------------------------------Header------------------------------ */
+
+  .cmn-sec-footer {
+    background: url("../img/common/img_common03.png") no-repeat center/cover;
+    padding-top: 6.510vw;
+  }
+
+  .cmn-sec-footer .footer-blk:last-child {
+    margin-right: 0vw;
+  }
+
+  .cmn-sec-footer .footer-blk {
+    background: #FFFFFF;
+    width: 29.427vw;
+    padding: 0vw 1.302vw;
+    margin-right: 2.734vw;
+    float: left;
+  }
+
+  .cmn-sec-footer .footer-list li {
+    list-style: none;
+  }
+
+  .cmn-sec-footer .footer-list .footer-img {
+    padding-top: 2.604vw;
+  }
+
+  .cmn-sec-footer .footer-list .footer-img a {
+    padding-left: 0;
+  }
+
+  .cmn-sec-footer .footer-list .footer-img img {
+    width: 16.927vw;
+  }
+
+  .cmn-sec-footer .footer-list .footer-txt {
+    padding: 1.953vw 0vw 4.296vw 0vw;
+    font-size: 1.822vw;
+    font-family: "Poppins-Regular";
+    color: #333333;
+    line-height: 1.7;
+  }
+
+  .cmn-sec-footer .footer-list .social-ttl {
+    color: #A67D29;
+    font-size: 2.604vw;
+    font-family: "Oswald-regular";
+    padding-bottom: 2.083vw;
+  }
+
+  .cmn-sec-footer .footer-list .social-link:first-child {
+    padding-left: 0vw;
+  }
+
+  .cmn-sec-footer .footer-list .social-link {
+    float: left;
+    padding-left: 1.041vw;
+  }
+
+  .cmn-sec-footer .footer-list .social-link img {
+    width: 1.953vw;
+  }
+
+  .cmn-sec-footer .footer-list .footer-ttl {
+    font-size: 2.604vw;
+    font-family: "Oswald-regular";
+    color: #A67D29;
+    padding-top: 3.125vw;
+  }
+
+  .cmn-sec-footer .footer-list li a {
+    text-decoration: none;
+    color: #333333;
+    font-size: 1.822vw;
+    font-family: "Poppins-Regular";
+    display: block;
+    padding-left: 3.125vw;
+  }
+
+  .cmn-sec-footer .footer-list .footer-address {
+    padding: 2.994vw 0vw 1.562vw 0vw;
+    line-height: 1.9;
+    position: relative;
+  }
+
+  .cmn-sec-footer .footer-list .footer-phone {
+    padding-bottom: 2.604vw;
+    line-height: 1.8;
+    position: relative;
+  }
+
+  .cmn-sec-footer .footer-list .footer-mail {
+    position: relative;
+    padding-bottom: 2.604vw;
+  }
+
+  .footer-address::before {
+    margin-right: 1.171vw;
+    color: #333333;
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f3c5";
+    font-size: 1.822vw;
+    position: absolute;
+  }
+
+  .footer-phone::before {
+    margin-right: 1.171vw;
+    color: #333333;
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f2a0";
+    font-size: 1.822vw;
+    position: absolute;
+  }
+
+
+  .footer-mail::before {
+    margin-right: 1.171vw;
+    color: #333333;
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f0e0";
+    font-size: 1.822vw;
+    position: absolute;
+  }
+
+  .cmn-sec-footer .footer-copyright {
+    border-top: 1px solid #FFFFFF;
+    margin-top: 6.380vw;
+    text-align: center;
+    padding: 1.822vw 0vw;
+    font-size: 1.822vw;
+    font-family: "Poppins-Regular";
+    color: #FFFFFF;
+  }
+
+  .cmn-sec-footer .footer-copyright .scm {
+    color: #F5FF7F;
+  }
+
+  .cmn-sec-footer .footer-copyright p {
+    padding-left: 0vw;
+  }
+
+  /* --------------------------------------cmn-sec-footer---------------------------------- */
+}
+
+@media only screen and (max-width: 767.9px) {
+
+  .pc {
+    display: none;
+  }
+
+  .sp {
+    display: block;
+  }
+
+  .l-inner {
+    max-width: 93.75vw;
+    margin: 0 auto;
+  }
+
+  .cmn-ttl {
+    font-size: 3.906vw;
+    font-family: "Oswald-regular";
+    color: #333333;
+  }
+
+  .cmn-btn {
+    font-size: 2.5vw;
+    font-family: "Oswald-regular";
+    color: #3D3E3C;
+    padding: 0.781vw 3.125vw;
+    border: 1px solid #3D3E3C;
+  }
+
+
+  .cmn-header {
+    font-size: 3.906vw;
+    font-family: "Oswald-regular";
+    color: #555555;
+    line-height: 1;
+  }
+
+  .cmn-header .sub-txt {
+    font-family: "Poppins-Regular";
+    font-size: 2.031vw;
+    color: #A67D29;
+  }
+
+  /* ------------------------------General------------------------------ */
+
+  .sec-header {
+    background: url("../img/top/img_top01_sp.png") no-repeat center/cover;
+    padding-bottom: 49.375vw;
+  }
+
+  .nav-bar {
+    background-color: rgb(205, 230, 253, 64%);
+    border-bottom: 4px solid #3D3E3C;
+    position: fixed;
+    width: 100vw;
+    z-index: 999;
+  }
+
+
+  .nav-bar .logo-ico {
+    float: left;
+    padding: 0.171vw 0vw;
+  }
+
+  .nav-bar .logo-ico img {
+    width: 20.312vw;
+  }
+
+  .nav-bar .nav-list {
+    float: right;
+    padding: 0vw;
+    margin-top: 6.987vw;
+  }
+
+  .nav-bar .nav-list li:first-child {
+    margin-left: 0vw;
+  }
+
+  .nav-bar .nav-list li {
+    display: inline-block;
+    width: 100vw;
+    text-align: center;
+  }
+
+  .nav-bar .nav-list li a:hover {
+    background: #3D3E3C;
+    color: #FFFFFF;
+  }
+
+  .nav-bar .nav-list li a.active {
+    background: rgba(61, 62, 60, 100%);
+    color: #FFFFFF;
+  }
+
+  .nav-bar .nav-list li a {
+    text-decoration: none;
+    font-family: "Oswald-regular";
+    font-size: 2.5vw;
+    color: #3D3E3C;
+    padding: 2.031vw 0vw;
+    width: 100vw;
+    display: inline-block;
+  }
+
+  /* ---------------------------Hamburger Menu---------------------------- */
+  nav {
+    position: fixed;
+    width: 100vw;
+    top: 0;
+    right: -156.25vw;
+    background-color: rgba(205, 230, 253, 64%);
+    height: 42.875vw;
+    padding-top: 9.375vw;
+  }
+
+  nav ul li {
+    width: 100vw;
+  }
+
+  nav ul li a {
+    color: #ffffff;
+    padding-left: 3.125vw;
+  }
+
+  .btn-gnavi {
+    position: fixed;
+    top: 1.718vw;
+    right: 3.125vw;
+    width: 4.687vw;
+    height: 3.75vw;
+    z-index: 3;
+    cursor: pointer;
+    transition: all 400ms;
+    -webkit-transition: all 400ms;
+  }
+
+  .btn-gnavi span {
+    position: absolute;
+    width: 4.687vw;
+    height: 0.625vw;
+    background: #FFFFFF;
+    border-radius: 1.562vw;
+    -webkit-transition: all 400ms;
+    transition: all 400ms;
+  }
+
+  .btn-gnavi span:nth-child(1) {
+    top: 0;
+  }
+
+  .btn-gnavi span:nth-child(2) {
+    top: 1.563vw;
+  }
+
+  .btn-gnavi span:nth-child(3) {
+    top: 3.125vw;
+  }
+
+
+  .btn-gnavi.hb-open {
+    transform: rotate(90deg);
+  }
+
+  .btn-gnavi.hb-open span:nth-of-type(1) {
+    transform: translateY(1.5625vw) rotate(-45deg);
+  }
+
+  .btn-gnavi.hb-open span:nth-of-type(2) {
+    transform: translateY(0vw) rotate(45deg);
+  }
+
+  .btn-gnavi.hb-open span:nth-of-type(3) {
+    opacity: 0;
+  }
+
+
+
+  .cmn-sec-header {
+    background: url("../img/common/img_common02_sp.png") no-repeat center/cover;
+    padding-bottom: 6.510vw;
+  }
+
+  .cmn-sec-header .ttl-header {
+    text-align: center;
+    padding-top: 13.97vw;
+  }
+
+  .cmn-sec-header .ttl-header .small-ttl {
+    font-family: "Poppins-Regular";
+    font-size: 2.343vw;
+    color: #D99C21;
+    padding-right: 9px;
+  }
+
+  .cmn-sec-header .ttl-header .large-ttl {
+    font-family: "Oswald-regular";
+    font-size: 3.906vw;
+    color: #FFFFFF;
+    padding: 1.432vw 0vw 0vw 0vw;
+  }
+
+  /* ------------------------------Header------------------------------ */
+
+  .cmn-sec-footer {
+    background: url("../img/common/img_common03_sp.png") no-repeat center/cover;
+    padding-top: 4.375vw;
+  }
+
+  .cmn-sec-footer .footer-blk:last-child {
+    margin-right: 0vw;
+  }
+
+  .cmn-sec-footer .footer-blk {
+    background: #FFFFFF;
+    width: 93.75vw;
+    padding: 0vw 3.002083vw;
+    margin-right: 0vw;
+    float: none;
+    margin-bottom: 5.075vw;
+  }
+
+  .cmn-sec-footer .footer-list li {
+    list-style: none;
+  }
+
+  .cmn-sec-footer .footer-list .footer-img {
+    padding-top: 3.604vw;
+  }
+
+  .cmn-sec-footer .footer-list .footer-img a {
+    padding-left: 0;
+  }
+
+  .cmn-sec-footer .footer-list .footer-img img {
+    width: 20.927vw;
+  }
+
+  .cmn-sec-footer .footer-list .footer-txt {
+    padding: 0.93vw 0vw 3.796vw 0vw;
+    font-size: 2.187vw;
+    font-family: "Poppins-Regular";
+    color: #333333;
+    line-height: 1.7;
+  }
+
+  .cmn-sec-footer .footer-list .social-ttl {
+    color: #A67D29;
+    font-size: 3.125vw;
+    font-family: "Oswald-regular";
+    padding-bottom: 1.9vw;
+  }
+
+  .cmn-sec-footer .footer-list .social-link:first-child {
+    padding-left: 0vw;
+  }
+
+  .cmn-sec-footer .footer-list .social-link {
+    float: left;
+    padding-left: 1.093vw;
+  }
+
+  .cmn-sec-footer .footer-list .social-link img {
+    width: 2.553vw;
+  }
+
+  .cmn-sec-footer .footer-list .footer-ttl {
+    font-size: 3.125vw;
+    font-family: "Oswald-regular";
+    color: #A67D29;
+    padding-top: 3.625vw;
+  }
+
+  .cmn-sec-footer .footer-list li a {
+    text-decoration: none;
+    color: #333333;
+    font-size: 2.187vw;
+    font-family: "Poppins-Regular";
+    display: block;
+    padding-left: 2.5vw;
+  }
+
+  .cmn-sec-footer .footer-list .footer-address {
+    padding: 2.494vw 0vw 2.262vw 0vw;
+    line-height: 1.9;
+    position: relative;
+  }
+
+  .cmn-sec-footer .footer-list .footer-phone {
+    padding-bottom: 2.604vw;
+    line-height: 1.9;
+    position: relative;
+  }
+
+  .cmn-sec-footer .footer-list .footer-mail {
+    position: relative;
+    padding-bottom: 2.604vw;
+  }
+
+  .footer-address::before {
+    margin-right: 1.171vw;
+    color: #333333;
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f3c5";
+    font-size: 2.187vw;
+    position: absolute;
+  }
+
+  .footer-phone::before {
+    margin-right: 1.171vw;
+    color: #333333;
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f2a0";
+    font-size: 2.187vw;
+    position: absolute;
+  }
+
+
+  .footer-mail::before {
+    margin-right: 1.171875vw;
+    color: #333333;
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f0e0";
+    font-size: 2.187vw;
+    position: absolute;
+  }
+
+  .cmn-sec-footer .footer-copyright {
+    border-top: 1px solid #FFFFFF;
+    margin-top: 2.58vw;
+    text-align: center;
+    padding: 1.822vw 0vw;
+    font-size: 1.718vw;
+    font-family: "Poppins-Regular";
+    color: #FFFFFF;
+  }
+
+  .cmn-sec-footer .footer-copyright .scm {
+    color: #F5FF7F;
+  }
+
+  .cmn-sec-footer .footer-copyright p {
+    padding-left: 0vw;
+  }
+
+  /* --------------------------------------cmn-sec-footer---------------------------------- */
+
+}
